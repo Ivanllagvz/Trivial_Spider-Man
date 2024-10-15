@@ -1,0 +1,36 @@
+name: trivial_spiderman
+description: "Un trivial de Spider-Man."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animaciones/spiderman.json
+    - assets/imagenes/manhattan.jpeg
+    - assets/imagenes/venom.jpg
+    - assets/imagenes/superior.jpg
+    - assets/imagenes/chacal.jpg
+    - assets/imagenes/gwen.jpg
+    - assets/imagenes/bugle.jpg
+    - assets/imagenes/spidey.jpg
+    - assets/imagenes/peter.jpg
+    - assets/imagenes/muerte.jpg
+    - assets/imagenes/negro.jpg   
+    - assets/imagenes/verse.jpg
+    - assets/imagenes/resultados.jpg
+    - assets/imagenes/swing.gif
